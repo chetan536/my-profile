@@ -3,7 +3,7 @@ const data = require('../mydata').data;
 module.exports.index = function(req,res) {
     // console.log(req.session);
     res.render('index',{
-        title: 'My Portfolio - Ashutosh Mishra',
+        title: 'My Portfolio - Chetan N',
         navHome: true
     })
 }
